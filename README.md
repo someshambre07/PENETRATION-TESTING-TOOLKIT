@@ -55,3 +55,23 @@ Learning Opportunity: Serves as an educational resource for aspiring cybersecuri
 
 Conclusion
 The Penetration Testing Toolkit is a valuable resource for security professionals, enabling them to identify and mitigate vulnerabilities effectively. It underscores the importance of proactive security measures in safeguarding digital assets.
+
+#OUTPUT:-
+[*] Scanning multiple targets...
+[*] Starting scan for 192.168.1.1
+[+] Port 22 is open on 192.168.1.1
+[+] Port 23 is open on 192.168.1.1
+
+[*] Starting scan for 192.168.1.2
+[+] Port 21 is open on 192.168.1.2
+[+] Port 25 is open on 192.168.1.2
+
+[*] Starting brute force attack on 192.168.1.1...
+[*] Trying password: password
+[-] Invalid password: password
+[*] Trying password: 123456
+[-] Invalid password: 123456
+[*] Trying password: admin
+[+] Found valid credentials: admin:admin
+
+
